@@ -1,0 +1,3 @@
+include ':app'
+include ':xwalk_core_library_v18'
+include ':jockeyJSAndroid_xwalk'

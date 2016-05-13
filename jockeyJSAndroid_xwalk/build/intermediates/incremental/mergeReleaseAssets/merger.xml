@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/src/main/assets"/><source path="/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/src/release/assets"/></dataSet></merger>

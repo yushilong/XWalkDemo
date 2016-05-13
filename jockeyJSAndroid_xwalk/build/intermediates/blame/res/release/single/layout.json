@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/color_picker_advanced_component.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/color_picker_advanced_component.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/date_time_picker_dialog.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/date_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/color_picker_dialog_title.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/color_picker_dialog_title.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/date_time_suggestion.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/date_time_suggestion.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/autofill_keyboard_accessory_icon.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/autofill_keyboard_accessory_icon.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/validation_message_bubble.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/validation_message_bubble.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/multi_field_time_picker_dialog.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/multi_field_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/color_picker_dialog_content.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/color_picker_dialog_content.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/autofill_keyboard_accessory_item.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/autofill_keyboard_accessory_item.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/two_field_date_picker.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/two_field_date_picker.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/release/layout/dropdown_item.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/layout/dropdown_item.xml"
+    }
+]

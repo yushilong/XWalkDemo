@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/src/debug/shaders"/></dataSet></merger>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/androidTest/debug/drawable-v21/button_borderless_compat.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/drawable-v21/button_borderless_compat.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/res/merged/androidTest/debug/drawable-v21/button_compat.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/jockeyJSAndroid_xwalk/build/intermediates/exploded-aar/XWalkDemo/xwalk_core_library_v18/unspecified/res/drawable-v21/button_compat.xml"
+    }
+]
