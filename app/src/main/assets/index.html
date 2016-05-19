@@ -1,6 +1,8 @@
 <html>
     <head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	
     	<!-- JQuery isn't needed for JockeyJS, just used in this example. --> 
 		<script type="text/javascript" src="file:///android_asset/jquery-1.9.1.js"></script>
@@ -32,14 +34,24 @@
 						color: $(document.body).css("background-color")
 					});
 				});
-				
+
+								$("#event").on("click", function() {
+					Jockey.send("event", {
+						key: "事件接收到了1~"
+					});
+				});
+
 				
 				// Change the color of the backgound based on a color that's
 				// sent from the iOS app.
 				Jockey.on("color-change", function(payload) {
 					$(document.body).css("background", payload.color);
 				});
-				
+
+								Jockey.on("event", function(payload) {
+					$("#eventlog").text(payload.key);
+				});
+
 				// Add an image to the page using an RSS feed passed in from
 				// the iOS app. Notice we don't call the complete() method until
 				// both the feed and the image have finished loading.
@@ -132,7 +144,11 @@
     
     <b>Send message from App -> JS</b>
     <br><span class="gray">Tap the color buttons below to change the web view's background color. Or click "Show Image" to display an image in the web view.</span>
-    
+    <br>
+    <button id="event">测试H5发送给app的事件</button>
+
+    <br><span id="eventlog"/>
+
     <ul id="console">
     
     </ul>

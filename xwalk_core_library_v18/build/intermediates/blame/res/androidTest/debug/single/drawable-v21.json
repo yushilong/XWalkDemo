@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/drawable-v21/button_compat.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/drawable-v21/button_compat.xml"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/drawable-v21/button_borderless_compat.xml",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/drawable-v21/button_borderless_compat.xml"
+    }
+]

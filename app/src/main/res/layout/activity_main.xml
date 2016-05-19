@@ -56,12 +56,15 @@
             android:layout_weight="0.14"
             android:background="#FF33CC" />
 
-        <ImageButton
+        <Button
             android:id="@+id/color_blue"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="0.14"
-            android:background="#0000FF" />
+            android:background="#0000FF"
+            android:text="app发送事件给h5"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
 
         <ImageButton
             android:id="@+id/color_white"

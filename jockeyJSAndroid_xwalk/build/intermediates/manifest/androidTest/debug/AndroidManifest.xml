@@ -3,7 +3,7 @@
     package="com.jockeyjs.test" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="9"
         android:targetSdkVersion="23" />
 
     <instrumentation
@@ -15,8 +15,6 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <uses-library android:name="android.test.runner" />
     </application>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/assets"/></dataSet><dataSet config="main"><source path="/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/src/androidTest/assets"/><source path="/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>

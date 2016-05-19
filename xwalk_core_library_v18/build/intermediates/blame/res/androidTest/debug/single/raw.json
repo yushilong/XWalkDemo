@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/raw/messaging_api.js",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/raw/messaging_api.js"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/raw/device_capabilities_api.js",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/raw/device_capabilities_api.js"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/raw/xwalk.pak",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/raw/xwalk.pak"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/raw/contacts_api.js",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/raw/contacts_api.js"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/raw/wifidirect_api.js",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/raw/wifidirect_api.js"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/raw/empty.wav",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/raw/empty.wav"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/raw/launch_screen_api.js",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/raw/launch_screen_api.js"
+    },
+    {
+        "merged": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/res/merged/androidTest/debug/raw/icudtl.dat",
+        "source": "/Users/yushilong/Documents/projects/XWalkDemo/xwalk_core_library_v18/build/intermediates/bundles/debug/res/raw/icudtl.dat"
+    }
+]

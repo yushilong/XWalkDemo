@@ -29,6 +29,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -37,6 +38,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -47,7 +49,6 @@ import com.jockeyjs.JockeyCallback;
 import com.jockeyjs.JockeyHandler;
 import com.jockeyjs.JockeyImpl;
 
-import org.xwalk.core.XWalkCookieManager;
 import org.xwalk.core.XWalkJavascriptResult;
 import org.xwalk.core.XWalkResourceClient;
 import org.xwalk.core.XWalkUIClient;
@@ -97,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton btnYellow = (ImageButton) findViewById(R.id.color_yellow);
         ImageButton btnOrange = (ImageButton) findViewById(R.id.color_orange);
         ImageButton btnPink = (ImageButton) findViewById(R.id.color_pink);
-        ImageButton btnBlue = (ImageButton) findViewById(R.id.color_blue);
+        Button btnBlue = (Button) findViewById(R.id.color_blue);
         ImageButton btnWhite = (ImageButton) findViewById(R.id.color_white);
 
         btnRed.setOnClickListener(toolbarListener);
@@ -105,9 +106,17 @@ public class MainActivity extends AppCompatActivity {
         btnYellow.setOnClickListener(toolbarListener);
         btnOrange.setOnClickListener(toolbarListener);
         btnPink.setOnClickListener(toolbarListener);
-        btnBlue.setOnClickListener(toolbarListener);
+//        btnBlue.setOnClickListener(toolbarListener);
         btnWhite.setOnClickListener(toolbarListener);
         //
+        btnBlue.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Map map = new HashMap();
+                map.put("key", "收到了app发送过来的事件" + SystemClock.currentThreadTimeMillis());
+                jockey.send("event", webView, map);
+            }
+        });
     }
 
     protected void updateColor(Map<String, String> payload) {
@@ -221,6 +230,19 @@ public class MainActivity extends AppCompatActivity {
                 String value = "color=" + payload.get("color");
                 Log.d("jockey", value);
                 //get cookie
+            }
+        });
+
+        jockey.on("event", new JockeyHandler() {
+            @Override
+            public void doPerform(Map<Object, Object> payload) {
+                String value = (String) payload.get("key");
+                new android.support.v7.app.AlertDialog.Builder(MainActivity.this).setMessage(value).setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                }).create().show();
             }
         });
     }
